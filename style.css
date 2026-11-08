@@ -1,0 +1,66 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #edf4fa;
+  color: #26384a;
+}
+
+header {
+  background: #0878c9;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  max-width: 850px;
+  margin: 25px auto;
+  padding: 12px;
+}
+
+.hero {
+  background: linear-gradient(135deg,#0878c9,#20b6d8);
+  color: white;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.panel {
+  background: white;
+  padding: 20px;
+  margin-top: 18px;
+  border-radius: 14px;
+  box-shadow: 0 3px 12px #0001;
+}
+
+input {
+  display: block;
+  width: 95%;
+  padding: 13px;
+  margin: 12px 0;
+  border: 1px solid #ccd9e5;
+  border-radius: 8px;
+}
+
+button {
+  background: #0878c9;
+  color: white;
+  border: none;
+  padding: 13px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.medicine-card {
+  background: #f1f8ff;
+  padding: 15px;
+  margin: 12px 0;
+  border-left: 5px solid #0878c9;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+}
