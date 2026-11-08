@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0878c9">
+<title>MEDI ALARM - Pengingat Obat</title>
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+<header>
+  <h1>💊 MEDI ALARM</h1>
+  <p id="clock"></p>
+</header>
+
+<main>
+  <section class="hero">
+    <h2>Selamat Datang di MEDI ALARM</h2>
+    <p>Pengingat minum obat untuk pasien dan keluarga.</p>
+  </section>
+
+  <section class="panel">
+    <h2>Data Pasien</h2>
+    <input id="patient" placeholder="Nama pasien">
+    <input id="medicine" placeholder="Nama obat">
+    <input id="dose" placeholder="Dosis obat">
+    <input id="time" type="time">
+    <button onclick="saveMedicine()">Simpan Jadwal</button>
+  </section>
+
+  <section class="panel">
+    <h2>Jadwal Minum Obat</h2>
+    <div id="schedule">Belum ada jadwal.</div>
+  </section>
+</main>
+
+<footer>
+  MEDI ALARM © 2026
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
